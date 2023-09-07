@@ -31,9 +31,7 @@ ul {
 
 }
 
-ul.show {
-    display: block;
-}
+
 
 li {
     width: 260px;
@@ -201,6 +199,10 @@ a {
         display: none;
         background-color: #3d3d50;
         margin: 0px;
+    }
+
+    ul.show {
+        display: block;
     }
 
     nav {
