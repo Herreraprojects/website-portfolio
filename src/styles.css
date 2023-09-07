@@ -1,0 +1,230 @@
+section {
+    background-color: white;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.hero {
+    background-color: #1d1d25;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    height: 500px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+ul.show {
+    display: block;
+}
+
+li {
+    width: 260px;
+    text-decoration: none;
+}
+
+p {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background-color: coral;
+    border-radius: 30px ;
+    text-align: center;  font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+
+.logo {
+    height: 80px;
+    margin: 30px;
+}
+
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px
+    
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px grey;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+     .project-container {
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+}
+
+
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    height: 150px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+
+
+
+@media only screen and (max-width: 2000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 0px;
+        align-self: self-end;
+
+
+        
+    }
+
+    ul {
+        display: none;
+        background-color: #3d3d50;
+        margin: 0px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #3d3d50;
+
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 80px;
+
+
+}
+
